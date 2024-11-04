@@ -1,0 +1,29 @@
+h2{
+  padding: 20px;
+  text-align: center;
+  font: 30px Arial, sans-serif;
+  background-image: linear-gradient(lightblue, skyblue);
+}
+
+.table{
+  border: 1px solid darkgray;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: -220px;
+  min-width: 70%;
+  height: 400px;
+}
+
+.error{
+  margin-left: -220px;
+  min-width: 70%;
+  margin-top: 30px;
+  width: 800px;
+}
+
+.row {
+  position: relative;
+  padding: 10px;
+  left: 50px;
+  font-size: 20px;
+}

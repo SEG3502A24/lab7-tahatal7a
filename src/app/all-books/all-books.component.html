@@ -1,0 +1,27 @@
+
+<div class="table">
+  <h2>Here are details of the Books in the archive</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Category</th>
+      <th>Title</th>
+      <th>Cost</th>
+      <th>Author</th>
+      <th>Year</th>
+      <th>Description</th>
+    </tr>
+    <tr *ngFor="let book of booksService.books">
+      <td>{{ book.id }}</td>
+      <td>{{ book.category}}</td>
+      <td>{{ book.title}}</td>
+      <td>{{ book.cost}} $</td>
+      <td>{{transform(book.authors)}}</td>
+      <td>{{ book.year}}</td>
+      <td>{{ book.description}}</td>
+    </tr>
+  </table>
+</div>
+
+
+
